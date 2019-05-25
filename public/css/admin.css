@@ -1,0 +1,115 @@
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-laravel {
+    background-color: #495e73;
+}
+
+.navbar-laravel .dropdown-menu {
+    background: #7c93aa;
+}
+
+.navbar-laravel a,
+.navbar-laravel.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: #ffff;
+}
+
+.navbar-laravel .navbar-brand {
+    width: 185px;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: row;
+}
+
+#header {
+    width: 220px;
+    background: #495e73;
+    color: #ffff;
+    min-height: calc(100vh - 55px);
+}
+
+main {
+    width: 100%;
+}
+
+#header a {
+    color: #ffff;
+}
+
+#header ul > li {
+    padding: 0 15px;
+}
+
+.table .text-right .badge {
+    padding: 0.25em 0.5em;
+    font-size: 85%;
+}
+
+.table .text-right {
+    min-width: 110px;
+}
+
+.table {
+    font-size: 85%;
+}
+
+.table td:not(:last-child), .table th:not(:last-child) {
+    padding: 0.45rem 0 0.45rem .75rem;
+}
+
+.table tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table thead {
+    background: #e7ebf0;
+}
+
+.table thead th {
+    vertical-align: baseline;
+}
+
+.input-group-append .btn, .input-group-prepend .btn {
+    padding: 0.075rem 0.75rem;
+}
+
+#header .c_card-info {
+    padding: 6px;
+    background: #d7e2ee;
+    border: 0;
+    margin: 7px;
+    font-size: 85%;
+    color: #343a40;
+    border-radius: 4px;
+}
+
+#header .c_card-info .header {
+    color: #575e64;
+    font-weight: 700;
+}
+
+/* MyComments */
+
+.faq-filter__search{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-filter__search #faq__search{
+    height: 33px;
+}
+
+.remake__tools button{
+    border:none;
+}
+
+.remake__tools a{
+    margin-right: 5px;
+}
